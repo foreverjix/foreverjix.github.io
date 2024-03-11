@@ -1,650 +1,246 @@
-<body>
-    <div class="home">
-        <div class="content">
-            <div class="stars"></div>
-            <img class="bgc" src="C:/Users/robot/Desktop1.jpg" width="100%" alt="">
-            <h3 class="title">欢迎来到我的个人网站</h3>
-            <h3 class="titles">今天也要加油鸭</h3>
-            <img class="icon" src="./img/down.png" alt="">
-            <div class='ribbon'>
-                <a href='./index.html'><span>Home</span></a>
-                <a href='./about.html'><span>About</span></a>
-                <a href='./form.html'><span>Form</span></a>
-
-            </div>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>徐纯宇 - 个人简历,个人主页，个人介绍，个人简介</title>
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body oncontextmenu="return false;" onselectstart="return false;" unselectable="on" ondragstart="return false;">
+	<!-- 背景 -->
+	<div class="bg"> </div>
+	  <!-- 背景遮罩，可有可无，可以配置穿透颜色 -->
+	  <div class="bg2"></div>
+<aside>
+	<a class="cur_a"><span>徐纯宇</span></a>
+	<a><span>基本资料</span></a>
+	<a><span>专业技能</span></a>
+	<a><span>教育经历</span></a>
+	<a><span>工作经验</span></a>
+</aside>	
+<section class="page_one" id="page1">
+	
+	<div class="cen_con">
+		<div class="portrait">
+            <img onmousemove="this.src='images/user_c.jpg'" onmouseout="this.src='images/user.jpg'"/ src="images/user.jpg">
         </div>
-        <div class="icons">
-            <div class="icons_items">
-                <img class="icons_items_imgs" src="./img/xuexiao.png" alt="">
-                <span>教学楼是我们每天必去取经之地</span>
-            </div>
-            <div class="icons_items">
-                <img class="icons_items_imgs" src="./img/canting.png" alt="">
-                <span>每天都要在食堂里面纠结到底吃什么</span>
-            </div>
-            <div class="icons_items">
-                <img class="icons_items_imgs" src="./img/fengjing.png" alt="">
-                <span>午饭过后可以躺着休息晒晒太阳的小山坡</span>
-            </div>
-            <div class="icons_items">
-                <img class="icons_items_imgs" src=1.jpg"./img/yewan.png" alt="">
-                <span>忙碌的一天结束啦爬上小床跟世界说晚安</span>
-            </div>
-        </div>
-        <div class="introduce">
-            <div class="introduce_item">
-                <img class="introduce_item_img" src="./img/imgs15.jpg" alt="">
-                <span class="introduce_item_title">天空还是一片浅蓝,转眼间东方出现了一道红霞,红霞慢慢地在扩大，不大一会就染红了小半边天。颜色红得可爱， 又 过了一会儿,在那个地方出现了太阳的小半边脸。</span>
+		<div class="cen_text">
+			<h2>业精于勤；荒于嬉；行成于思；毁于随。</h2>
+			<hr>
+			<h3>徐纯宇</h3>
+			<h3>全栈工程师</h3>
+			<h3>📠 1376174032@qq.com | ☎ 13300000000</h3>
+			<h3>在职北京 ▣ 海淀</h3>
+		</div>
+		
+	</div>
+	<div class="down_arrow">
+		<a class="scroll"><span></span></a> 
+	</div>
+	
+</section>
 
-            </div>
-            <div class="introduce_item">
-
-                <span class="introduce_item_titles">当清晨的阳光洒进我们温馨的寝室，忙碌的一天又开始了，闹钟开始响起，每个人睡眼惺忪，从床上爬起，忙忙碌碌的穿梭在食堂与教室之间</span>
-                <img class="introduce_item_img" src="./img/imgs36.jpg" alt="">
-            </div>
-            <div class="introduce_item">
-                <img class="introduce_item_img" src="./img/imgs16.jpg" alt="">
-                <span class="introduce_item_title">温暖的阳光照耀着大地，远处的小山都金灿灿的美轮美奂，它穿梭于微隙的气息。舒倘，漫长。紫檀的香味，弥漫在春日，把天地间一切空虚盈满，阳光下，是一道纤绝的尘陌，呢喃着天真，充盈着那抹曾经深不可测的孤清而飘逸的影。</span>
-            </div>
-            <div class="introduce_item">
-                <span class="introduce_item_titles">当晚自习结束后，抬头望向天空，几颗大而亮的星星挂在夜空，仿佛是天上的人儿提着灯笼在巡视那浩瀚的太空。美丽极了，裹紧衣裳，在这优美的夜色中慢慢的走回寝室。</span>
-                <img class="introduce_item_img" src="./img/imgs14.jpg" alt="">
-            </div>
-        </div>
-        <audio autoplay="autoplay" id="audio" loop="loop">
-                <source src="./video/music.mp3" type="audio/MP3">
-               
-        </audio>
-        <img class="music_img" src="./img/music_img.png" alt="">
+<section class="page_two" id="page2">
+	<div class="con_wrap">
+		<div class="tit_wrap">
+			<h1 style="font-weight: bold;">基本资料</h1>
+			<div class="scissors" style="border-top:1px dashed orange;">
+			</div>
+			<h2> &nbsp;&nbsp;&nbsp;&nbsp;毕业于北京理工大学的计算机应用专业。从业十年有余，熟悉C#和Java前后端开发，熟悉oracle和mysql数据库，熟悉Html和js及css前端开发，熟悉uniapp跨平台开发小程序和app。</h2>
+		</div>		
+		<div class="myinfo">
+			<table>
+				<tbody>
+					<tr>
+						<td rowspan="6">
+							<img src="images/user.jpg">
+						</td>
+						<td>姓名 | 徐纯宇</td>
+						<td>手机 | 13300000000</td>
+					
+					</tr>
+					<tr>
+						<td>性别 | 男</td>
+						<td>邮箱 | 1376174032@qq.com</td>
+					</tr>
+					<tr>
+						<td>出生 | 1992.02.20</td>
+						
+						<td>QQ号 | 1376174032</td>
+					</tr>
+					<tr>
+						<td>居住 | 北京市海淀区</td>
+						<td>户籍 | 北京市海淀区</td>
+					</tr>
+					<tr>
+						<td>学历 | 本科</td>
+						<td>学校 | 北京理工大学</td>
+					</tr>
+					<tr>
+						<td>专业 | 计算机应用</td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="down_arrow">
+		<a class="scroll"><span></span></a> 
+	</div>
+</section>
+<section class="page_three" id="page3">
+	<!-- 背景 -->
+	<div class="bga"> </div>
+	  <!-- 背景遮罩，可有可无，可以配置穿透颜色 -->
+	  <div class="bga2"></div>
+	<div class="con_wrap">
+		<div class="tit_wrap">
+			<h1 style="font-weight: bold;">专业技能</h1>
+			<div class="scissors" style="border-top:1px dashed orange;">
+			</div>
+			<h2>长年累月后,精进又向前。唯有勤学练,擅长最优先。</h2>	
+		</div>
+		<div class="skill_con">
+			<div class="canvas_wrap">
+				<div class="canvas_con">
+					<div class="text_con">
+						<p class="percent">98%</p>
+						<p class="chart_title">C#</p>
+					</div>
+					<canvas id="html5" width=160 height=160></canvas>
+				</div>
+				<div class="canvas_con">
+					<div class="text_con">
+						<p class="percent">93%</p>
+						<p class="chart_title">JAVA</p>
+					</div>
+					<canvas id="css3" width=160 height=160></canvas>
+				</div>
+				<div class="canvas_con">
+					<div class="text_con">
+						<p class="percent">96%</p>
+						<p class="chart_title">HTML</p>
+					</div>
+					<canvas id="js" width=160 height=160></canvas>
+				</div>
+				<div class="canvas_con">
+					<div class="text_con">
+						<p class="percent">99%</p>
+						<p class="chart_title">ORACLE</p>
+					</div>
+					<canvas id="jq" width=160 height=160></canvas>
+				</div>
+			</div>
+			<div class="text_wrap">
+				<p>1.  熟练使用java，基于ssh能快速搭建系统框架。</p>
+				<p>2.  熟练使用java，基于spring boot能快速搭建系统框架。</p>
+				<p>3.  熟练使用HTML/CSS技术，精通js/jquery编程,能够熟练使用angularjs，vue,reactjs等前端框架。</p>
+				<p>4.  熟悉oracle,mysql,sqlserver等各平台安装使用，熟练使用SQL语句增删改查，触发器，存储过程，索引，序列。</p>
+				<p>5.  熟练的使用grunt，gulp等前端工具。</p>
+				<p>6.  熟悉c#语言研发，基于asp.new mvc能快速搭建系统框架，新技术asp.net core做后台数据服务能快速搭建，跨平台使用。</p>
+				<p>7.  熟悉c#语言研发，基于winform的c/s应用程序能快速搭建框架。</p>
+			</div>	
+		</div>
+		
+	</div>
+	<div class="down_arrow">
+		<a class="scroll"><span></span></a> 
+	</div>
+</section>
+<section class="page_four" id="page4">
+	<!-- 背景 -->
+	<div class="bga"> </div>
+	  <!-- 背景遮罩，可有可无，可以配置穿透颜色 -->
+	  <div class="bga2"></div>
+    <div class="con_wrap">
+		<div class="tit_wrap">
+			<h1 style="font-weight: bold;">教育经历</h1>
+			<div class="scissors" style="border-top:1px dashed orange;">
+			</div>
+			<h2>学则智，不学则愚；学则治，不学则乱。自古圣贤，成大业，未有不由学而成者。</h2>
+		</div>
+	  	<div class="work_con">
+	  		<div class="programe">
+		    	<div class="work_time">4年<br>北京理工大学</div>
+			    <div class="work_text">
+			      	<div class="triangle-left"></div>
+			      	<div class="exCon">
+				        <h4>学习时间：2008/06 -- 2012/06</h4>
+				        <p>学习技能：</p>
+				        <p>大学四年时间完成了所有的学业，并参与了很多项目研发工作，配合老师和同学攻关了很多难题。</p>
+				        <p> 1.掌握了办公五剑客，Word，PPT，excel，ps，viso。</p>       
+						<p> 2.掌握了C#和java的前后端开发，数据库基本应用。</p> 
+					</div>
+			    </div> 
+			</div>
+			<div class="programe">
+				<div class="work_time">1年<br>Java培训班</div>
+		    	<div class="work_text">
+		      		<div class="triangle-left"></div>
+		      		<div class="exCon">
+				        <h4>学习时间：2011/05 -- 2012/04</h4>
+				        <p>学习技能：</p>
+				        <p>参加了一年的JAVA培训班，跟着老师一起做了多个项目。积累了很多经验，有了很多经历。</p>
+				        <p>1.掌握了springboot框架下的api开发，并开发了自己的一套数据接口。</p>	
+				        <p>2.掌握了ssm框架下的前后端开发，并开发了自己的博客。</p>	
+		      		</div>
+		    	</div>
+		    </div>
+		</div>
     </div>
+	<div class="down_arrow">
+		<a class="scroll"><span></span></a> 
+	</div>
+</section>
+<section class="page_five" id="page5">
+	<!-- 背景 -->
+	<div class="bga"> </div>
+	  <!-- 背景遮罩，可有可无，可以配置穿透颜色 -->
+	  <div class="bga2"></div>
+	<div class="con_wrap">
+		<div class="tit_wrap">
+			<h1 style="font-weight: bold;">工作经验</h1>
+			<div class="scissors" style="border-top:1px dashed orange;">
+			</div>
+			<h2>生命,需要我们去努力。年轻时,我们要努力锻炼自己的能力,掌握知识、掌握技能、掌握必要的社会经验。</h2>
+		</div>
+	  	<div class="work_con">
+	  		<div class="programe">
+		    	<div class="work_time">22个月<br>汽车之家官网</div>
+			    <div class="work_text">
+			      	<div class="triangle-left"></div>
+			      	<div class="exCon">
+				        <h4>开发时间：2019 /12--2021 /10</h4>
+				        <h5>开发工具：VS2015，VSCode，ORACLE</h5>
+				        <p>项目描述：</p>
+				        <p>参与与客户交流需求，参与项目整体开发，主要负责首页面各方面数据综合显示，系统采用预加载，通过wcf对硬件控制，实时更新，一些页面设计，数据库的设计，数据测试。</p>
+				        <p> 1.数据信息展示块，2.软硬件交互块，3.数据解析块。</p>       
+					</div>
+			    </div> 
+			</div>
+			<div class="programe">
+				<div class="work_time">8个月<br>联想后台研发</div>
+		    	<div class="work_text">
+		      		<div class="triangle-left"></div>
+		      		<div class="exCon">
+				        <h4>开发时间：2021 /10--2022 /06</h4>
+				        <h5>开发工具：IDEA,VSCode,MYSQL</h5>
+				        <p>项目描述：</p>
+				        <p>参与与客户交流需求，参与项目整体开发，主要负责首页面各方面数据综合显示，系统采用预加载，实时更新，一些页面设计，数据库的设计，数据测试。 </p>
+				        <p>1.设备基础信息 2.部门信息 3.用户信息 4.数据报表 5.调试工具，6.数据监测，7.系统配置等7个大功能块
+系统采用角色分配，操作分配等权限，实现各个角色的权限功能。精确划分各个部门的职责。</p>	
+				        
+		      		</div>
+		    	</div>
+		    </div>
+		</div>
+    </div>
+</section>
 
 </body>
-<script>
-    let mucics = document.getElementById('audio')
-    document.body.addEventListener('mousemove', function() {
-        setTimeout(() => {
-            mucics.play();
-        }, 2000);
-    }, false);
-</script>
-
+<script type="text/javascript" src="js/main.js"></script>
 </html>
-* {
-    margin: 0;
-    padding: 0
-}
-
-.home {
-    height: 100%;
-    overflow: hidden;
-}
-
-.content {
-    perspective: 340px;
-    width: 100%;
-    position: relative;
-}
-
-h1 {
-    color: white;
-    text-align: center;
-}
-
-span {
-    display: block;
-    text-align: center;
-}
-
-.stars {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 2px;
-    height: 2px;
-    z-index: 999;
-    border-radius: 50%;
-    box-shadow: -447px 387px #c4c4c4, -401px 118px #fafafa, -109px 217px #d9d9d9, -680px -436px #e3e3e3, 514px 360px #cccccc, -708px 298px #e8e8e8, -696px -270px #ededed, 116px -128px #f7f7f7, 179px 35px white, -404px -90px whitesmoke, -331px -309px #c4c4c4, -363px -24px #d1d1d1, 277px 416px #fafafa, -145px -244px whitesmoke, 123px 62px #d4d4d4, -407px 418px #d9d9d9, 535px 237px #d9d9d9, -466px -78px #f7f7f7, 257px 287px #dedede, 327px -398px #e0e0e0, -602px -38px #c2c2c2, 128px 398px #e6e6e6, 274px -446px #d1d1d1, -602px -298px #c7c7c7, 526px -5px #c4c4c4, -90px -158px #fcfcfc, 5px 294px whitesmoke, -633px 229px #c4c4c4, -475px 427px #dedede, 586px -453px #f2f2f2, 180px -432px #c7c7c7, -637px -88px #cfcfcf, -453px 308px #d6d6d6, -111px 1px #d9d9d9, 573px -450px #ededed, 198px 300px #d6d6d6, -355px 166px #dedede, -715px 13px #e3e3e3, 262px -104px #d1d1d1, 147px 325px #dbdbdb, 1px 399px #dbdbdb, 286px -100px white, 43px -329px #e8e8e8, 617px 55px #d9d9d9, -168px -392px #cccccc, 84px 219px #c9c9c9, 507px -226px #d9d9d9, -327px -70px #e6e6e6, 386px -212px #c4c4c4, -717px 4px #cfcfcf, 502px -231px #e3e3e3, 302px 56px #ededed, 649px 341px #c7c7c7, 569px 350px #c9c9c9, 516px -31px #e6e6e6, 689px 447px #c2c2c2, 591px -206px #fafafa, 422px -137px #e6e6e6, -510px -324px #cccccc, -649px 287px #c2c2c2, -194px -48px #f7f7f7, -279px -329px #d1d1d1, -406px 478px #dbdbdb, -735px -87px #c9c9c9, 30px -197px #dedede, -564px 233px #e6e6e6, -486px -324px #ededed, -54px -7px #ededed, -441px -194px #e3e3e3, -133px -95px #e0e0e0, -722px -73px #d6d6d6, 595px 423px #ededed, 568px -39px #ededed, 370px 377px #d1d1d1, -419px -102px #fcfcfc, -450px 109px #c4c4c4, -57px -119px #d1d1d1, -582px 150px #e6e6e6, 206px -263px #cfcfcf, 582px -461px #c9c9c9, -268px -141px #d9d9d9, -148px 291px #c7c7c7, 254px -179px #c9c9c9, 725px 424px #f0f0f0, 391px -150px #ebebeb, 89px -299px #d4d4d4, 170px 1px #c9c9c9, 243px 209px #c7c7c7, 27px 460px #c9c9c9, -465px -380px #d4d4d4, 530px -360px whitesmoke, -626px 53px #e0e0e0, 706px 218px #d9d9d9, 40px -82px #cccccc, -5px -212px #e6e6e6, -742px 33px #ebebeb, -714px 478px #e0e0e0, -585px -125px #cccccc, -216px 348px #cfcfcf, 601px 332px #ededed, 344px -88px #c4c4c4, 659px -22px #d1d1d1, -411px 188px #d6d6d6, -423px -206px #fcfcfc, -359px -136px #cfcfcf, 612px 406px whitesmoke, 725px 96px whitesmoke, 363px -446px white, -204px 325px #c9c9c9, 740px 176px #fafafa, -489px -352px white, -638px 64px #dbdbdb, 537px -65px #dbdbdb, 151px -32px #ebebeb, 681px 212px #fcfcfc, 604px -149px #e6e6e6, -542px -398px #c4c4c4, -707px 66px whitesmoke, -381px 258px #cfcfcf, -30px 332px #d6d6d6, 512px -381px #c9c9c9, 195px 288px #cccccc, -278px 479px #c7c7c7, 27px -208px #d6d6d6, -288px 15px white, -680px 248px #dedede, 433px 31px #c9c9c9, 150px -206px #d4d4d4, -79px 247px white, -594px 115px #e0e0e0, 99px 292px #e0e0e0, 673px -269px #dedede, -257px -64px #d1d1d1, 449px 81px #f2f2f2, 18px -99px #d1d1d1, -694px 415px #f7f7f7, 240px 264px #e0e0e0, 450px -172px white, 383px 7px #e8e8e8, 338px -73px #c9c9c9, 291px -19px #ebebeb, 659px 137px #d1d1d1, 602px -6px #fcfcfc, 554px 249px #ebebeb, 625px 356px #d9d9d9, 579px -183px #d6d6d6, -20px 250px white, -401px 431px #c4c4c4, -645px -232px #cccccc, -265px -148px white, 553px 258px #d1d1d1, 166px -360px #ebebeb, 719px 51px #ededed, 612px -129px #ebebeb, -465px -104px #f2f2f2, -154px -121px #d9d9d9, -1px 330px #f2f2f2, -666px 248px #f7f7f7, -720px 264px #ededed, 148px -365px #e6e6e6, -388px -349px #c4c4c4, 128px -88px #e3e3e3, -683px -274px #fafafa, -341px 41px #c9c9c9, -59px -471px #f0f0f0, -3px -427px #c2c2c2, 418px 167px #d6d6d6, 343px 247px #c7c7c7, 623px -347px #d1d1d1, 716px -217px white, 243px -409px whitesmoke, -75px -126px #d6d6d6, -730px -91px #c9c9c9, -210px -397px #cfcfcf, -349px 180px #c9c9c9, -567px -281px #e0e0e0, -460px 381px #fcfcfc, -310px -22px #ededed, 450px -1px #dbdbdb, -405px -328px #e3e3e3, 5px 332px #d6d6d6, -294px 302px #fcfcfc, -398px 97px whitesmoke, -696px 325px #cfcfcf, -589px 110px #d6d6d6, 353px -411px #dbdbdb, -697px -318px #ebebeb, -114px -72px #f0f0f0, 259px -193px #fcfcfc, 60px 26px #e6e6e6, -63px -232px white, 205px -372px #f7f7f7, -464px -333px #f2f2f2, -374px 123px white, -377px -386px #c7c7c7, -80px 337px #cccccc, 478px -178px #dbdbdb, 222px 420px #ebebeb, -707px 99px #c4c4c4, 716px -132px #fafafa, -253px -286px #e3e3e3, 646px 178px #f0f0f0, 201px 24px #d1d1d1, 178px -58px #c7c7c7, -557px 368px #ededed, 0px 219px #d9d9d9, -266px -269px #cccccc, 242px -197px #c9c9c9, -419px 193px #c2c2c2, -47px 91px #c7c7c7, -109px 75px #c2c2c2, -146px -453px #d6d6d6, 671px -350px #f2f2f2, 421px -91px #d9d9d9, 738px 19px #ededed, -316px -155px #dedede, 419px 244px #fcfcfc, -278px -418px #d6d6d6, -581px -181px #fcfcfc, 139px 264px #d9d9d9, 691px -11px #ebebeb, -622px 402px #c2c2c2, 219px 396px #f0f0f0, -149px -423px white, -716px -78px #d9d9d9, -590px 341px #e6e6e6, -208px 79px #d6d6d6, -227px -24px #f7f7f7, 239px 262px #d1d1d1, 740px 443px #f7f7f7, 509px 134px #d6d6d6, -555px 232px #e8e8e8, -67px -427px #cfcfcf, -368px 250px #f7f7f7, 715px -415px #fafafa, 411px -301px #f0f0f0, -322px 287px #d9d9d9, -429px -90px #f2f2f2, -327px -387px #f0f0f0, -491px 183px #c2c2c2, -133px 250px #d4d4d4, 538px 139px #e3e3e3, -417px -125px #f0f0f0, 653px -351px #e6e6e6, -549px 38px #d4d4d4, 602px 110px whitesmoke, 415px 105px #e0e0e0, -733px -371px #cfcfcf, 286px 403px #d4d4d4, 11px 320px #c4c4c4, -597px 158px whitesmoke, 716px -350px whitesmoke, 321px 67px #fafafa, -237px -300px #cfcfcf, 74px 152px #c9c9c9, 587px -123px #fcfcfc, 699px -332px whitesmoke, 399px 355px #f7f7f7, -323px 314px #dbdbdb, 89px 416px #c7c7c7, 445px 38px #e3e3e3, 572px 122px #c4c4c4, -258px 372px white, 49px 306px #d9d9d9, 437px -35px #dedede, 566px 174px #f2f2f2, 732px -299px whitesmoke, -410px 394px #ededed, 131px -415px white, 19px -326px #e8e8e8, -700px -188px #d1d1d1, 96px -1px #e0e0e0, -328px -396px #f0f0f0, -117px -214px #fcfcfc, -53px 261px #ebebeb, 80px 134px #d6d6d6, -364px -216px white, -636px -125px #dbdbdb, -639px -265px #e3e3e3, 208px 98px #c7c7c7, 172px 467px #e0e0e0, 435px 309px #e3e3e3, 194px -259px #f0f0f0, 209px -186px #c9c9c9, -312px 418px #fafafa, 229px 407px #c9c9c9, -449px -357px #fafafa, 674px 121px #e8e8e8, 608px -429px #ebebeb, -431px -428px #cfcfcf, 105px 462px #e3e3e3, -179px -372px #e3e3e3, 143px -317px #d6d6d6, -449px -149px #fafafa, -544px 250px #dedede, -220px -323px whitesmoke, 658px 8px whitesmoke, -656px -244px #e8e8e8, 347px 11px whitesmoke, 694px -230px #f7f7f7, -317px 1px #c4c4c4, 28px 23px #fcfcfc, -382px 321px #dbdbdb, 632px -74px #c4c4c4, 154px -245px #c2c2c2, -553px 337px #d6d6d6, -48px -243px #d1d1d1, 92px -391px #cccccc, -71px -256px #cfcfcf, -372px 57px #d9d9d9, 369px -140px #fcfcfc, 675px 81px #c2c2c2, -663px 254px #cccccc, 703px -203px #ededed, 74px -363px #c2c2c2, 643px -458px #d1d1d1, 198px 359px #cccccc, 265px 309px #d4d4d4, -353px -368px #e8e8e8, -465px 439px whitesmoke, 693px 360px #c9c9c9, 634px -397px #d1d1d1, 467px 25px whitesmoke, -558px -272px #e6e6e6, 671px 69px #dbdbdb, 407px 357px #cfcfcf, 379px 80px white, 10px -203px #c9c9c9, 104px -292px #f0f0f0, -667px -29px #d1d1d1, 557px -155px #e6e6e6, -505px 115px #cfcfcf, -605px 164px #f2f2f2, -108px -223px #e0e0e0, 523px -156px #ebebeb, 691px 230px white, -507px -13px #d1d1d1, -349px 332px #dedede, 520px 266px whitesmoke, -66px -250px #e6e6e6, -496px -449px #ebebeb, 414px -170px #dedede, -649px 230px #ebebeb, 598px -92px #c7c7c7, -638px 113px #c2c2c2, 151px 363px #f7f7f7, -445px -241px #f0f0f0, 527px -14px #dedede, 203px -61px #cfcfcf, -716px -284px #ebebeb, -525px 134px #c2c2c2;
-    animation: fly 15s linear infinite;
-    transform-style: preserve-3d;
-}
-
-.stars:before,
-.stars:after {
-    content: "";
-    position: absolute;
-    width: inherit;
-    height: inherit;
-    box-shadow: inherit;
-}
-
-.stars:before {
-    transform: translateZ(-300px);
-    opacity: .6;
-}
-
-.stars:after {
-    transform: translateZ(-600px);
-    opacity: .4;
-}
-
-@keyframes fly {
-    from {
-        transform: translateZ(0px);
-        opacity: .6;
-    }
-    to {
-        transform: translateZ(200px);
-        opacity: .8;
-    }
-}
-
-.title {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    left: 0;
-    right: 0;
-    top: 300px;
-    margin: auto;
-    bottom: 0;
-    color: #fff;
-    font-size: 24px;
-    font-weight: 500;
-}
-
-.titles {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    left: 0;
-    right: 0;
-    top: 350px;
-    margin: auto;
-    bottom: 0;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
-}
-
-.icon {
-    width: 15px;
-    height: 15px;
-    padding: 5px;
-    border: 2px solid #fff;
-    border-radius: 100%;
-    position: absolute;
-    left: 49%;
-    bottom: 50px;
-    animation: downs 2s linear infinite;
-}
-
-@keyframes downs {
-    from {
-        transform: translatey(0px);
-        opacity: .6;
-    }
-    to {
-        transform: translatey(30px);
-        opacity: .8;
-    }
-}
-
-.ribbon {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    right: 300px;
-    top: 50px;
-    margin: auto;
-}
-
-.ribbon:after,
-.ribbon:before {
-    margin-top: 0.5em;
-    content: "";
-    display: flex;
-    ;
-    border: 1.5em solid #fff;
-}
-
-.ribbon:after {
-    border-right-color: transparent;
-}
-
-.ribbon:before {
-    border-left-color: transparent;
-}
-
-.ribbon a:link,
-.ribbon a:visited {
-    color: #000;
-    text-decoration: none;
-    height: 3.5em;
-    overflow: hidden;
-}
-
-.ribbon span {
-    background: #fff;
-    display: inline-block;
-    line-height: 3em;
-    padding: 0 1.5em;
-    margin-top: 0.5em;
-    position: relative;
-    -webkit-transition: background-color 0.2s, margin-top 0.2s;
-    /* Saf3.2+, Chrome */
-    -moz-transition: background-color 0.2s, margin-top 0.2s;
-    /* FF4+ */
-    -ms-transition: background-color 0.2s, margin-top 0.2s;
-    /* IE10 */
-    -o-transition: background-color 0.2s, margin-top 0.2s;
-    /* Opera 10.5+ */
-    transition: background-color 0.2s, margin-top 0.2s;
-}
-
-.ribbon a:hover span {
-    background: #FFD204;
-    margin-top: 0;
-}
-
-.ribbon span:before {
-    content: "";
-    position: absolute;
-    top: 3em;
-    left: 0;
-    border-right: 0.5em solid #9B8651;
-    border-bottom: 0.5em solid #fff;
-}
-
-.ribbon span:after {
-    content: "";
-    position: absolute;
-    top: 3em;
-    right: 0;
-    border-left: 0.5em solid #9B8651;
-    border-bottom: 0.5em solid #fff;
-}
-
-.introduce {
-    display: flex;
-    flex-direction: column;
-}
-
-.introduce_item {
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-}
-
-.introduce_item_img {
-    width: 800px;
-    height: 500px;
-}
-
-.introduce_item_title {
-    width: 300px;
-    font-size: 18px;
-    line-height: 36px;
-    align-self: center;
-    padding-left: 100px;
-}
-
-.introduce_item_titles {
-    width: 300px;
-    font-size: 18px;
-    line-height: 36px;
-    align-self: center;
-    padding-right: 100px;
-}
-
-audio {
-    position: fixed;
-    bottom: 50px;
-    right: 0;
-}
-
-.music_img {
-    position: fixed;
-    bottom: 50px;
-    right: 50px;
-    width: 40px;
-    height: 30px;
-    animation: muscis 5s linear infinite;
-}
-
-@keyframes muscis {
-    from {
-        transform: rotate (0deg);
-        opacity: .6;
-    }
-    to {
-        transform: rotate(360deg);
-        opacity: .8;
-    }
-}
-
-.icons {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 400px;
-    box-sizing: border-box;
-    overflow: hidden;
-}
-
-.icons_items {
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;
-    margin-top: 80px;
-    width: 200px;
-}
-
-.icons_items_imgs {
-    width: 200px;
-    margin-bottom: 30px;
-}
-<body>
-    <div class="about">
-        <h3 class="about_tit">要不断的努力，才能成为更好的自己</h3>
-        <img class="about_bgc" src="./img/from1.png" alt="">
-        <div class='ribbon'>
-            <a href='./index.html'><span>Home</span></a>
-            <a href='./about.html'><span>About</span></a>
-            <a href='./form.html'><span>Form</span></a>
-
-        </div>
-        <div class="me">
-            <img class="me_img" src="./img/imgs19.jpg" alt="">
-            <span class="me_tit animate ">我是一名大二的学生，平时爱好看看书，浏览网页资料，学习一下新知识，为以后毕业做些小打算。跟大多数人一样，对未来些许迷茫，当忽然之间脑海里闪现出来一些关于几年前的某个片段时，会情不自禁的回想那个时候的自己，关于那个曾经的所有点点滴滴也渐渐浮现出一些画面，突然拼命的想要去找一点在那个记忆点里的某些东西，寻找的过程中脑海里的思绪早已沉溺在回忆里面，忘了的还有那些忘不了的感触在这一刻全都涌了出来，我觉得最后寻找的结果或许已不重要了，因为这突如其来想要寻找的一些东西的念头，让自己突然变得好安静，莫名的思绪蔓延开来了，它又带我回到了现在已经体会不到的那种怦然心动的时候，仿佛打开了老旧的抽屉，里面装满了当初的成长，青涩，遗憾与那一种想起来会不禁忽然笑出来的感觉，可能想笑的是那时的自己，又或许是笑那带有遗憾结尾的时光，怀念真好。
-                又一年即将过去了，生活一如既往的推着自己往前走，在行人眼里穿梭，而不时会回头看看的，还是那个仿佛不知在追逐着什么的自己，此刻的空气很好，它不会留下痕迹。
-            </span>
-        </div>
-        <div class="videos">
-            <span>
-                        这是我很喜欢的一个动漫电影，玩具总动员里面的第四部，讲述的事胡迪深知自己在这个世界上的使命，就是照顾他的主人，无论是原来的安迪还是新主人邦妮。当邦妮将不情愿成为玩具的“叉叉”带回家时，胡迪又担起了教导叉叉接受自己新身份的责任。 然而当邦妮将所有玩具带上房车家庭旅行时，胡迪与伙伴们将共同踏上全新的冒险之旅，领略房间外面的世界有多广阔，甚至偶遇老朋友牧羊女。在多年的独自闯荡中，牧羊女已经变得热爱冒险，不再只是一个精致的洋娃娃。正当胡迪和牧羊女发现彼此对玩具的使命的意义大相径庭时，他们很快意识到更大的威胁即将到来。
-                    </span>
-            <video width="800" controls id="video" preload="auto" height="100%" autoplay="autoplay" loop="loop" type="video/mp4" src="./video/videos.mp4"></video>
-
-        </div>
-    </div>
-</body>
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.about {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.about_bgc {
-    width: 100%
-}
-
-.about_tit {
-    position: absolute;
-    top: 280px;
-    left: 0;
-    right: 0;
-    font-size: 28px;
-    font-weight: 550;
-    bottom: 0;
-    width: 800px;
-    margin: auto;
-    text-align: center;
-}
-
-.ribbon {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    right: 300px;
-    top: 50px;
-    margin: auto;
-}
-
-.ribbon:after,
-.ribbon:before {
-    margin-top: 0.5em;
-    content: "";
-    display: flex;
-    ;
-    border: 1.5em solid #fff;
-}
-
-.ribbon:after {
-    border-right-color: transparent;
-}
-
-.ribbon:before {
-    border-left-color: transparent;
-}
-
-.ribbon a:link,
-.ribbon a:visited {
-    color: #000;
-    text-decoration: none;
-    height: 3.5em;
-    overflow: hidden;
-}
-
-.ribbon span {
-    background: #fff;
-    display: inline-block;
-    line-height: 3em;
-    padding: 0 1.5em;
-    margin-top: 0.5em;
-    position: relative;
-    -webkit-transition: background-color 0.2s, margin-top 0.2s;
-    /* Saf3.2+, Chrome */
-    -moz-transition: background-color 0.2s, margin-top 0.2s;
-    /* FF4+ */
-    -ms-transition: background-color 0.2s, margin-top 0.2s;
-    /* IE10 */
-    -o-transition: background-color 0.2s, margin-top 0.2s;
-    /* Opera 10.5+ */
-    transition: background-color 0.2s, margin-top 0.2s;
-}
-
-.ribbon a:hover span {
-    background: #FFD204;
-    margin-top: 0;
-}
-
-.ribbon span:before {
-    content: "";
-    position: absolute;
-    top: 3em;
-    left: 0;
-    border-right: 0.5em solid #9B8651;
-    border-bottom: 0.5em solid #fff;
-}
-
-.ribbon span:after {
-    content: "";
-    position: absolute;
-    top: 3em;
-    right: 0;
-    border-left: 0.5em solid #9B8651;
-    border-bottom: 0.5em solid #fff;
-}
-
-.me {
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-    overflow: hidden;
-}
-
-.me_tit {
-    width: 600px;
-    line-height: 36px;
-    font-size: 18px;
-    margin-left: 100px;
-    margin-top: 50px;
-}
-
-.me_img {
-    width: 800px;
-    height: 600px;
-}
-
-.animate {
-    padding-left: 20px;
-    width: 500px;
-    font-size: 16px;
-    color: #000;
-    animation: 10s wordsLoop linear infinite normal;
-}
-
-@keyframes wordsLoop {
-    0% {
-        transform: translateY(100px);
-        -webkit-transform: translateY(100px);
-    }
-    100% {
-        transform: translateY(-100%);
-        -webkit-transform: translateY(-100%);
-    }
-}
-
-.videos {
-    display: flex;
-    margin-top: 60px;
-    padding-bottom: 80px;
-}
-
-.videos span {
-    width: 400px;
-    margin-right: 100px;
-    margin-left: 300px;
-    color: #FFD204
-}
-<body>
-    <div class="from">
-        <img class="bgc" src="./img/imgs42.jpg" alt="">
-        <div class="submit">
-            <span class="form_title">个人信息提交</span>
-            <div class="form_input">
-                <span>姓名：</span>
-                <input class="inputs" type="text" value="居居侠">
-            </div>
-            <div class="form_input">
-                <span>班级:</span>
-                <input class="inputs" type="text" value="移动交互应用技术一班">
-            </div>
-            <div class="form_input">
-                <span>学号：</span>
-                <input class="inputs" type="text" value="200187454548754">
-            </div>
-            <div class="form_input">
-                <span>系部：</span>
-                <input class="inputs" type="text" value="信息工程系">
-            </div>
-            <div class="form_input">
-                <span>课程名称：</span>
-                <input class="inputs" type="text" value="网页设计与制作">
-            </div>
-            <div class="btn_submit">
-                <a href="./finish.html">
-                    <button class="btn">提交</button></a>
-                <a href="./index.html" class="back"><button class="home_href">首页</button></a>
-            </div>
-        </div>
-    </div>
-</body>
-* {
-    margin: 0;
-    padding: 0
-}
-
-.from {
-    overflow: hidden;
-    position: relative;
-}
-
-.bgc {
-    width: 100%;
-}
-
-.submit {
-    position: absolute;
-    z-index: 9;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    margin-top: 150px;
-    width: 500px;
-    height: 500px;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-}
-
-.form_title {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 18px;
-}
-
-.form_input {
-    padding: 0 30px;
-    box-sizing: border-box;
-    display: flex;
-    margin-top: 20px;
-}
-
-.inputs {
-    height: 40px;
-    width: 300px;
-    border-radius: 5px;
-    border: none;
-    background-color: #eee;
-    color: #666;
-    padding-left: 20px;
-}
-
-.form_input span {
-    width: 85px;
-    align-self: center;
-}
-
-.btn_submit {
-    align-self: center;
-}
-
-.btn {
-    border: none;
-    width: 80px;
-    height: 40px;
-    color: #fff;
-    border-radius: 5px;
-    background: #999;
-    margin-top: 40px;
-}
-
-.btn:hover {
-    background: #666;
-}
-
-.back {
-    margin-left: 10px;
-}
-
-.home_href {
-    border: none;
-    width: 80px;
-    height: 40px;
-    color: #fff;
-    border-radius: 5px;
-    background: #FFD204;
-}
 
 
 
